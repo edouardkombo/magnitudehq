@@ -89,12 +89,10 @@ public class Plugin implements Parcelable {
 		this.status = status;
 	}
 
-	@Override
 	public int describeContents() {
 		return 0;
 	}
 
-	@Override
 	public void writeToParcel(Parcel dest, int flags) {
 		dest.writeString(name);
 		dest.writeString(id);
@@ -110,7 +108,6 @@ public class Plugin implements Parcelable {
      return new Plugin(in);
  }
 
-		@Override
 		public Plugin[] newArray(int size) {
 			return new Plugin[size];
 		}

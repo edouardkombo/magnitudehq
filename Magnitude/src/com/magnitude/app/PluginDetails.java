@@ -115,7 +115,6 @@ public class PluginDetails extends Activity implements OnClickListener {
 		
 	}
 
-	@Override
 	public void onClick(View v) {
 		//If cancel Button was clicked
 		if (v.getId() == R.id.cancel) {

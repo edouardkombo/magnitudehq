@@ -91,11 +91,11 @@ public class PoiAttributes implements Parcelable {
 	public void setPopUp(String url) {
 		this.popupUrl = url;
 	}
-	@Override
+
 	public int describeContents() {
 		return 0;
 	}
-	@Override
+
 	public void writeToParcel(Parcel dest, int flags) {
 		dest.writeString(name);
 		dest.writeString(intent);
