@@ -1,0 +1,2 @@
+#summary L'accueil de la documentation pour le composant client de Magnitude
+#labels Featured
