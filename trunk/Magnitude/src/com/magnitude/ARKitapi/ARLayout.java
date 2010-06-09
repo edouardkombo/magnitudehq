@@ -185,7 +185,6 @@ public class ARLayout extends View implements LocationListener, SensorEventListe
 	}
 	
 	
-	@Override
 	public void onStatusChanged(String provider, int status, Bundle extras) {
 		if(status == LocationProvider.OUT_OF_SERVICE || status == LocationProvider.TEMPORARILY_UNAVAILABLE) {
 			this.gpsIcon.disconnect();

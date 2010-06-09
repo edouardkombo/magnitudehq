@@ -45,7 +45,6 @@ public class Popup implements OnDismissListener{
 		pop.dismiss();
 	}
 	
-	@Override
 	public void onDismiss() {
 		//this.layout = LayoutInflater.from(ctx).inflate(layoutXML,null);
 		//pop.update();

@@ -28,7 +28,6 @@ public class SettingsActivity extends PreferenceActivity implements SharedPrefer
     }
 
 
-	@Override
 	public void onSharedPreferenceChanged(SharedPreferences sharedPreferences,
 			String key) {
 		//If the preferences changed, save !

@@ -94,7 +94,6 @@ public class MagnitudeActivity extends Activity implements LocationListener,
 	 * What the API should do when a change of Location is detected <br>
 	 * the doTreatment method will be implemented by subclasses.
 	 */
-	@Override
 	public void onLocationChanged(Location location) {
 		ar.setCurLocation(location);
 		LocationManager locMan = (LocationManager) ctx
@@ -333,7 +332,6 @@ public class MagnitudeActivity extends Activity implements LocationListener,
 		getAr().addARView(poi);
 	}
 
-	@Override
 	public void onClick(DialogInterface dialog, int which, boolean isChecked) {
 		final String[] ARRAY_TEMPLATE = new String[0];
 		String plugin = installedPlugins.keySet().toArray(ARRAY_TEMPLATE)[which];
@@ -380,24 +378,20 @@ public class MagnitudeActivity extends Activity implements LocationListener,
 		
 	}
 
-	@Override
 	public void onClick(DialogInterface dialog, int which) {
 		dialog.dismiss();
 	}
 
-	@Override
 	public void onProviderDisabled(String provider) {
 		// TODO Auto-generated method stub
 
 	}
 
-	@Override
 	public void onProviderEnabled(String provider) {
 		// TODO Auto-generated method stub
 
 	}
 
-	@Override
 	public void onStatusChanged(String provider, int status, Bundle extras) {
 		// TODO Auto-generated method stub
 
