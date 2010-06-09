@@ -37,7 +37,7 @@ public class WhereIsMySave extends Activity implements OnClickListener {
 		button.setOnClickListener(this);
 	}
 	
-	@Override
+
 	public void onClick(View v) {
 		EditText nameText = (EditText) findViewById(R.id.name);
 		name = nameText.getText().toString();
